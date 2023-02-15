@@ -14,12 +14,12 @@ const About = () => {
         </div>
 
         <p className="text-xl">
-        "In my previous roles, I have had the opportunity to work on some amazing projects, 
+        In my previous roles, I have had the opportunity to work on some amazing projects, 
         including building a full-stack web application that allows users to order food deliver
         y from multiple restaurants, and creating a housing listing and searching application. 
         I am particularly skilled in Java, Python, SQL, and JavaScript, and proficient in using 
         various frameworks such as React, Node.js, and Redux.
-</p>
+        </p>
             <br />
             <p> "I don't know enough about this to have an opinion"
             </p>
