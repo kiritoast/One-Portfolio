@@ -11,13 +11,14 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
+            <h1 className="text-gray-500 sm:text-3xl"  >Full Stack Developer</h1>
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full Stack Developer
+            Jinming Zhang
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 8 years of experience building and desgining software.
-            Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+          Current student at Northwestern University in Seattle, 
+          pursuing my master degree in computer science. Passionate about software development.
+           Always seeking opportunities to learn and grow.
           </p>
 
           <div>

@@ -2,24 +2,30 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div name="about className=">
-        <div>
-            <div>
-                <p>About
-                    
-                </p>
-            </div>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus 
-                illo assumenda sint mollitia eius tempore aut maiores ducimus fuga adipisci 
-                cupiditate, quas molestiae recusandae quidem aliquid laborum. Consequuntur, natus 
-                cumque?
-            </p>
+    <div
+      name="about"
+      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+    >
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+            About
+          </p>
+        </div>
+
+        <p className="text-xl">
+        "In my previous roles, I have had the opportunity to work on some amazing projects, 
+        including building a full-stack web application that allows users to order food deliver
+        y from multiple restaurants, and creating a housing listing and searching application. 
+        I am particularly skilled in Java, Python, SQL, and JavaScript, and proficient in using 
+        various frameworks such as React, Node.js, and Redux.
+</p>
             <br />
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis placeat iusto quos natus magni, a vel quod perspiciatis provident facere illum corrupti autem minus nemo sint velit totam et ab qui vero soluta. Doloribus, nihil ea. Totam, accusantium. Ea quis impedit nulla rerum asperiores? Ullam temporibus quam assumenda vel provident!</p>
+            <p> "I don't know enough about this to have an opinion"
+            </p>
         </div>
     </div> 
   )
 }
 
-export default About
+export default About 
